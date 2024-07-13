@@ -2,30 +2,32 @@
 title: Setup
 ---
 
-## Setup: Using Open On-Demand, Jupyter Lab and Deep Learning frameworks
+## Open On-Demand + JupyterLab + Deep Learning frameworks
 
-Open on-demand is a web-based client portal, that hides all the complexity with web data pipelines and job submission and allow you to start using powerful computers for your research from a web interface, with minimal effort and fast learning curve.
+All the examples and exercises proposed in this Workshop will be executed on Dolly Sods, the WVU HPC Cluster specialized for GPU processing.
+To facilitate the interaction with the cluster we will use Jupyter Notebooks running on compute nodes on Dolly Sods and we will do that from a web interface thanks to Open On-Demand.
+
+Open On-Demand is a web-based client portal, that hides all the complexity with web data pipelines and job submission and allow you to start using powerful computers for your research from a web interface, with minimal effort and fast learning curve.
 On this episode you will not have to use Linux commands, you just need to execute one for the purpose of downloading all the materials for the tutorials but beyond that, your interaction will take place on a friendly web interface.
 The job submission and web pipelines happen transparently to you.
-You just need to declare the resources that you need and a new tab open with Jupyter-Lab running remotely on one of the compute nodes.
+You just need to declare the resources that you need and a new tab open with *JupyterLab* running remotely on one of the compute nodes.
 
 Several technologies are involved here and it is important to understand how those different pieces are interconnected.
 
 Open OnDemand is a web-based client, based on the Ohio Supercomputer Center’s proven “OSC On Demand” platform, that enables HPC centers to install and deploy advanced web and graphical interfaces for their users.
 HPC resources are accessible from a web browser without the user having to install any special software or plugin.
 
-The path for this tutorial is as follows. First we will demonstrate how to access the open on demand portal. Next we will create *Jupyter-Lab*  sessions and opening a terminal and a file manager.
+The path for this tutorial is as follows. First we will demonstrate how to access the open on demand portal. Next we will create *JupyterLab*  sessions and opening a terminal and a file manager.
 
 ### Accessing the Dashboard
 
-First, go to `Dolly Sods On Demand Dashboard <https://ondemand-ds.hpc.wvu.edu>`_
+First, go to [Dolly Sods On Demand Dashboard](https://ondemand-ds.hpc.wvu.edu)
 
 The first page you will see is asking for your credentials
 
 <a href="{{ page.root }}/fig/OOD-CAS.png">
   <img src="{{ page.root }}/fig/OOD-CAS.png" alt="OOD-CAS" />
 </a>
-
 
 After entering your credentials and using your DUO authentication you will land on the Open On Demand Dashboard:
 
@@ -41,7 +43,7 @@ From the dashboard go to `Interactive Apps`. There are several options there, we
 
 #### Jupyter
 
-For Jupyter click on `Ìnteractive Apps > Jupyter Notebook`. A form is shown with all the options available to create the Jupyter session.
+For Jupyter click on `Interactive Apps > Jupyter Notebook`. A form is shown with all the options available to create the Jupyter session.
 
 A good starting point is to select `CPython 3.7.4` as the Python version, select `standby` as the queue and `4 hours` as the wall time. There are options for alternative Python versions, queues and walltimes. A short description of each options is shown on the form.
 
