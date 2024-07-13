@@ -3,11 +3,11 @@ title: "Generative models"
 teaching: 60
 exercises: 30
 questions:
-- "Key question (FIXME)"
+- ""
 objectives:
 - "First learning objective. (FIXME)"
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- "Generative models learn the patterns and structure of their input training data and then generate new data that has similar characteristics"
 ---
 FIXME
 

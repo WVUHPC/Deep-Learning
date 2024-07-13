@@ -3,7 +3,7 @@ title: "Convolutional Neural Networks"
 teaching: 60
 exercises: 30
 questions:
-- "Key question (FIXME)"
+- ""
 objectives:
 - "First learning objective. (FIXME)"
 keypoints:

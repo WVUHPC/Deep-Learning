@@ -3,7 +3,7 @@ title: "Feedforward neural networks"
 teaching: 60
 exercises: 30
 questions:
-- "Key question (FIXME)"
+- ""
 objectives:
 - "Understand role of hidden layers and the transformations happening with them"
 keypoints:

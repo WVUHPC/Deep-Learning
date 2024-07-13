@@ -4,7 +4,7 @@ start: 540
 teaching: 60
 exercises: 30
 questions:
-- "Key question (FIXME)"
+- ""
 objectives:
 - "Learn the main concepts and foundations of Artificial Neural Networks"
 keypoints:
